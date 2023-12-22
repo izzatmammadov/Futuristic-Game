@@ -1,0 +1,13 @@
+.animated_content {
+  position: relative;
+  animation: moveUpDown 1.3s infinite alternate ease-in-out;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
